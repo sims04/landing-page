@@ -1,0 +1,274 @@
+/*QUESTIONS:
+Margins ! is there a way to do it easier? */
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.menucontainer{ 
+color:white;
+    background-color: #1F2937;
+    padding:20px 0;
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  
+.menu{
+width: 900px;
+display: flex;
+justify-content: space-between;
+font-family: Arial, Helvetica, sans-serif;
+font-size: small;
+
+}
+
+.logo{
+  margin-left: 15px;
+  font-weight: bold;
+  
+}
+
+.links{
+border: 1px;
+display: flex;
+justify-content: flex-end;
+font-size: x-small;
+}
+
+.link2{
+  margin-left: 30px;
+}
+
+.link3{
+  margin-left: 30px;
+}
+
+.container2{ 
+  color:white;
+      background-color: #1F2937;
+      padding:20px;
+      display: flex;
+      justify-content: flex-start;
+
+    }
+
+   
+.left{
+      width: 410px;
+      height: 300px;
+margin-left: 300px;
+justify-content: center;
+      }
+
+ .website{
+        display: flex;
+        font-size: 48px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin-top: 35px;
+   
+      }    
+      
+ .website2{
+  display:flex;
+  margin-top: 10px;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+
+ }  
+
+ .image{
+  display: flex;
+  background-color: grey;
+flex-direction: flex-end;
+justify-content: center;
+align-items: center;
+margin-left: 70px;
+height: 220px;
+width: 400px;
+margin-top: 30px;
+ }
+ 
+ .plc{
+  display: flex;
+  justify-content: center;
+ }
+
+ .push{
+  margin-top: 20px;
+ }
+
+ .btn{
+  border: none;
+  color: white;
+  background-color: #3882f6;
+  padding: 8px 40px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  border-radius: 10px;
+}
+
+.title{
+  display: flex;
+  color: #1F2937;
+  font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-top:70px;
+  justify-content: center;
+ 
+}
+.row{
+  display: flex;
+ 
+}
+
+.bcom{
+  display: flex;
+  border-style:solid;
+  border-color: #3882f6;
+  border-radius: 10px;
+  justify-content: center;
+margin-left: 40px;
+height: 160px;
+width: 160px;
+margin-top: 70px;
+}
+
+.bluebox{
+  margin-left: 380px;
+}
+
+.writing{
+  display: flex;
+}
+
+.UD{
+  display: flex;
+  text-align: center;
+  text-wrap: wrap;
+  font-size: 14px;
+margin-left: 80px;
+height: 100px;
+width: 120px;
+margin-top: 5px;
+}
+
+.underbox{
+  margin-left: 400px;
+}
+
+.underbox4{
+  margin-right: 295px;
+}
+
+.thirdcontainer{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(226, 226, 226);
+  margin-top: 50px;
+  height:400px;
+}
+.quote{
+  display: flex;
+  font-size: xx-large;
+  font-style: italic;
+  color: #1F2937;
+  font-family: Arial, Helvetica, sans-serif;
+height: 155px;
+width: 740px;
+margin-top: 120px;
+margin-left: 150px;
+}
+.author{
+  display: flex;
+ font-size: medium;
+  font-style: italic;
+  color: black;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+height:205px;
+width: 295px;
+margin-top: 280px;
+margin-left: -250px;
+}
+
+.fourthcontainer{
+  display: flex;
+  border-radius: 10px;
+  background-color: #3882f6;
+  justify-content: center;
+  justify-content: space-between;
+margin-left: 340px;
+height: 120px;
+width: 900px;
+margin-top: 70px;
+
+}
+
+.nested{
+
+  display: flex;
+ justify-content: center;
+  width: 500px;
+  height: 120px;
+
+}
+
+.call{
+  display: flex;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  align-items: center;
+  margin-left: 100px;
+}
+.Sign{
+  display: flex;
+  color: white;
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  margin-left: -185px;
+  margin-top: 40px;
+}
+
+
+.push2{
+  display: flex;
+ align-items: center;
+ margin-right: 120px;
+ margin-top: 15px;
+ }
+
+.btn2{
+    border: solid;
+    border-color: white;
+    background-color: #3882f6;
+    color: white;
+    padding: 8px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 10px;
+  
+  }
+
+  .copyright{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    height: 50px;
+    margin-top: 60px;
+  }
